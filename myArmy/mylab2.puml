@@ -1,0 +1,379 @@
+@startuml
+enum org.example.Model.Orc.OrcType {
++  BASIC
++  LEADER
++  SCOUTE
+- String typeName
++ String getTypeName()
+}
+
+
+class org.example.Model.Orc.MistyMountsOrcBuilder {
++ OrcBuilder buildPower()
++ OrcBuilder buildAgility()
++ OrcBuilder buildIntelligence()
++ OrcBuilder buildHealth()
+}
+
+class org.example.View.PanelInfoView {
+- JLabel nameLabel
+- JLabel typeLabel
+- JLabel raceLabel
+- JLabel weaponLabel
+- JLabel armorLabel
+- JLabel bannerLabel
+- JCheckBox hornCheckBox
+- JCheckBox bannerCheckBox
+- Map<String,JProgressBar> attributeBars
+- JProgressBar createAttributeBar()
++ void displayCharacter(Orc)
++ void clearOrcInfo()
+}
+
+
+class org.example.View.PanelAddView {
+- JTextField nameField
+- JComboBox<String> raceComboBox
+- JComboBox<String> typeComboBox
+- JButton addButton
+- JButton randomButton
++ void setAddButtonListener(ActionListener)
++ void setRandomButtonListener(ActionListener)
++ String getOrcName()
++ OrcType getOrcType()
++ OrcRace getOrcRace()
++ void clearInputs()
+}
+
+
+class org.example.Model.OrcFactory.OrcDirector {
+- OrcBuilder builder
++ void setOrcBuilder(OrcRace)
++ Orc createBasicOrc(String)
++ Orc createLeaderOrc(String)
++ Orc createScoutOrc(String)
+}
+
+
+class org.example.View.MainWindow {
+- OrcModel model
+- OrcController controller
+- PanelTreeView treeView
+- PanelInfoView infoView
+- PanelAddView addView
+}
+
+interface org.example.Model.OrcFactory.OrcBuilderFactory {
+~ OrcBuilder createOrcBuilder()
+}
+
+class org.example.Mylab2 {
++ {static} void main(String[])
+}
+
+enum org.example.Model.GearFactory.BannerType {
++  RED_EYE_BANNER
++  SPIDER_BANNER
++  MOON_BANNER
+- String bannerName
++ String getBanner()
+}
+
+
+class org.example.Model.GearFactory.Mordor.MordorArmor {
+~ ArmorType armor
++ String toString()
+}
+
+
+class org.example.Model.GearFactory.Dolguldur.DolguldurWeapon {
+~ WeaponType weapon
++ void setWeapon(WeaponType)
++ WeaponType getWeapon()
++ String toString()
+}
+
+
+class org.example.Model.GearFactory.Mordor.MordorGearFactory {
++ Weapon createWeapon()
++ Armor createArmor()
++ Banner createBanner()
+}
+
+class org.example.Model.GearFactory.Mordor.MordorBanner {
+~ BannerType banner
++ String toString()
+}
+
+
+class org.example.Model.Orc.Orc {
+- OrcRace race
+- OrcType type
+- String name
+- Weapon weapon
+- Armor armor
+- Banner banner
+- int power
+- int agility
+- int intelligence
+- int health
+- boolean hasHorn
+- boolean hasBanner
++ OrcRace getRace()
++ void setRace(OrcRace)
++ OrcType getType()
++ void setType(OrcType)
++ String getName()
++ void setName(String)
++ Weapon getWeapon()
++ void setWeapon(Weapon)
++ Armor getArmor()
++ void setArmor(Armor)
++ Banner getBanner()
++ void setBanner(Banner)
++ int getPower()
++ void setPower(int)
++ int getAgility()
++ void setAgility(int)
++ int getIntelligence()
++ void setIntelligence(int)
++ int getHealth()
++ void setHealth(int)
++ boolean isHasHorn()
++ void setHasHorn(boolean)
++ boolean isHasBanner()
++ void setHasBanner(boolean)
++ String toString()
+}
+
+
+class org.example.Model.Orc.MordorOrcBuilder {
++ OrcBuilder buildPower()
++ OrcBuilder buildAgility()
++ OrcBuilder buildIntelligence()
++ OrcBuilder buildHealth()
+}
+
+abstract class org.example.Model.Orc.OrcBuilder {
+# OrcRace race
+# OrcType type
+# String name
+# Weapon weapon
+# Armor armor
+# Banner banner
+# int power
+# int agility
+# int intelligence
+# int health
+# boolean hasHorn
+# boolean hasBanner
+# OrcGearFactory gearFactory
++ OrcBuilder buildType(OrcType)
++ OrcBuilder buildName(String)
++ OrcBuilder buildWeapon()
++ OrcBuilder buildArmor()
++ OrcBuilder buildBanner()
++ {abstract}OrcBuilder buildPower()
++ {abstract}OrcBuilder buildAgility()
++ {abstract}OrcBuilder buildIntelligence()
++ {abstract}OrcBuilder buildHealth()
++ OrcBuilder addHorn()
++ OrcBuilder addBanner()
++ OrcBuilder buildGearFactory(OrcGearFactory)
++ Orc createNewOrc()
+}
+
+
+class org.example.Model.GearFactory.MistyMounts.MistyMountsGearFactory {
++ Weapon createWeapon()
++ Armor createArmor()
++ Banner createBanner()
+}
+
+class org.example.Model.GearFactory.Dolguldur.DolguldurBanner {
+~ BannerType banner
++ String toString()
+}
+
+
+class org.example.Model.GearFactory.TestOrkGearFactory {
++ {static} void main(String[])
+}
+
+class org.example.View.TestTreeView {
++ {static} void main(String[])
+}
+
+class org.example.Model.Orc.TestOrk {
++ {static} void main(String[])
+}
+
+class org.example.View.PanelTreeView {
+- DefaultMutableTreeNode rootNode
+- DefaultTreeModel treeModel
+- JTree tree
+- OrcModel model
+- Map<String,DefaultMutableTreeNode> raceNodes
+- TreeSelectionListener selectionListener
++ void setSelectionListener(TreeSelectionListener)
++ void onOrcAdded(Orc)
++ void updateTreeStructure(Orc)
++ Orc getSelectedOrc()
+- void expandAllNodes()
+}
+
+
+class org.example.Model.GearFactory.MistyMounts.MistyMountsArmor {
+~ ArmorType armor
++ String toString()
+}
+
+
+interface org.example.Model.GearFactory.Armor {
+}
+class org.example.Model.GearFactory.Dolguldur.DolguldurGearFactory {
++ Weapon createWeapon()
++ Armor createArmor()
++ Banner createBanner()
+}
+
+class org.example.Model.OrcFactory.TestOrcBuilderFactory {
++ {static} void main(String[])
+}
+
+enum org.example.Model.GearFactory.ArmorType {
++  STEEL_ARMOR
++  CHAINMAIL
++  LEATHER_ARMOR
+- String armorName
++ String getArmor()
+}
+
+
+class org.example.Model.GearFactory.MistyMounts.MistyMountsWeapon {
+~ WeaponType weapon
++ String toString()
++ void setWeapon(WeaponType)
++ WeaponType getWeapon()
+}
+
+
+interface org.example.Model.GearFactory.Weapon {
+~ void setWeapon(WeaponType)
+~ WeaponType getWeapon()
+}
+
+class org.example.Model.OrcModel {
+- List<Orc> orcArmy
+- String[] orcRace
+- String[] orcType
++ void addOrc(Orc)
++ List<Orc> getOrcArmy()
++ List<Orc> getOrcArmyByType(OrcType)
++ List<Orc> getOrcArmyByRace(OrcRace)
++ String[] getOrcRace()
++ String[] getOrcType()
+}
+
+
+enum org.example.Model.Orc.OrcRace {
++  MORDOR_ORC
++  DOLGULDUR_ORC
++  MISTYMOUNTS_ORC
+- String raceName
++ String getRaceName()
+}
+
+
+interface org.example.Model.GearFactory.OrcGearFactory {
+~ Weapon createWeapon()
+~ Armor createArmor()
+~ Banner createBanner()
+}
+
+class org.example.Model.OrcFactory.MordorOrcBuilderFactory {
++ OrcBuilder createOrcBuilder()
+}
+
+class org.example.Model.OrcFactory.MistyMountsOrcBuilderFactory {
++ OrcBuilder createOrcBuilder()
+}
+
+class org.example.Model.Orc.DolguldurOrcBuilder {
++ OrcBuilder buildPower()
++ OrcBuilder buildAgility()
++ OrcBuilder buildIntelligence()
++ OrcBuilder buildHealth()
+}
+
+class org.example.Model.GearFactory.Mordor.MordorWeapon {
+~ WeaponType weapon
++ WeaponType getWeapon()
++ String toString()
++ void setWeapon(WeaponType)
+}
+
+
+class org.example.Controller.OrcController {
+- OrcModel model
+- PanelAddView addView
+- PanelTreeView treeView
+- PanelInfoView infoView
+- void addNewOrc()
+- void setupListeners()
+}
+
+
+class org.example.Model.GearFactory.MistyMounts.MistyMountsBanner {
+~ BannerType banner
++ String toString()
+}
+
+
+interface org.example.Model.GearFactory.Banner {
+}
+class org.example.Model.OrcFactory.DolguldurOrcBuilderFactory {
++ OrcBuilder createOrcBuilder()
+}
+
+class org.example.Model.GearFactory.Dolguldur.DolguldurArmor {
+~ ArmorType armor
++ String toString()
+}
+
+
+enum org.example.Model.GearFactory.WeaponType {
++  SWORD
++  AXE
++  SPEAR
++  BOW
+- String weaponName
++ String getWeapon()
+}
+
+
+
+
+org.example.Model.Orc.OrcBuilder <|-- org.example.Model.Orc.MistyMountsOrcBuilder
+org.example.View.JPanel <|-- org.example.View.PanelInfoView
+org.example.View.JPanel <|-- org.example.View.PanelAddView
+org.example.View.JFrame <|-- org.example.View.MainWindow
+org.example.Model.GearFactory.Armor <|.. org.example.Model.GearFactory.Mordor.MordorArmor
+org.example.Model.GearFactory.Weapon <|.. org.example.Model.GearFactory.Dolguldur.DolguldurWeapon
+org.example.Model.GearFactory.OrcGearFactory <|.. org.example.Model.GearFactory.Mordor.MordorGearFactory
+org.example.Model.GearFactory.Banner <|.. org.example.Model.GearFactory.Mordor.MordorBanner
+org.example.Model.Orc.OrcBuilder <|-- org.example.Model.Orc.MordorOrcBuilder
+org.example.Model.GearFactory.OrcGearFactory <|.. org.example.Model.GearFactory.MistyMounts.MistyMountsGearFactory
+org.example.Model.GearFactory.Banner <|.. org.example.Model.GearFactory.Dolguldur.DolguldurBanner
+org.example.View.JPanel <|-- org.example.View.PanelTreeView
+org.example.Model.GearFactory.Armor <|.. org.example.Model.GearFactory.MistyMounts.MistyMountsArmor
+org.example.Model.GearFactory.OrcGearFactory <|.. org.example.Model.GearFactory.Dolguldur.DolguldurGearFactory
+org.example.Model.GearFactory.Weapon <|.. org.example.Model.GearFactory.MistyMounts.MistyMountsWeapon
+org.example.Model.OrcFactory.OrcBuilderFactory <|.. org.example.Model.OrcFactory.MordorOrcBuilderFactory
+org.example.Model.OrcFactory.OrcBuilderFactory <|.. org.example.Model.OrcFactory.MistyMountsOrcBuilderFactory
+org.example.Model.Orc.OrcBuilder <|-- org.example.Model.Orc.DolguldurOrcBuilder
+org.example.Model.GearFactory.Weapon <|.. org.example.Model.GearFactory.Mordor.MordorWeapon
+org.example.Model.GearFactory.Banner <|.. org.example.Model.GearFactory.MistyMounts.MistyMountsBanner
+org.example.Model.OrcFactory.OrcBuilderFactory <|.. org.example.Model.OrcFactory.DolguldurOrcBuilderFactory
+org.example.Model.GearFactory.Armor <|.. org.example.Model.GearFactory.Dolguldur.DolguldurArmor
+@enduml
