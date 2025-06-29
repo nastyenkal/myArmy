@@ -1,6 +1,6 @@
-package org.example.Model.OrcFactory;
+package mephi.b23902.Model.OrcFactory;
 
-import org.example.Model.Orc.OrcBuilder;
+import mephi.b23902.Model.Orc.OrcBuilder;
 
 public interface OrcBuilderFactory {
     OrcBuilder createOrcBuilder();

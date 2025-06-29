@@ -1,8 +1,8 @@
-package org.example.Model;
+package mephi.b23902.Model;
 
-import org.example.Model.Orc.Orc;
-import org.example.Model.Orc.OrcRace;
-import org.example.Model.Orc.OrcType;
+import mephi.b23902.Model.Orc.Orc;
+import mephi.b23902.Model.Orc.OrcRace;
+import mephi.b23902.Model.Orc.OrcType;
 
 import java.util.ArrayList;
 import java.util.List;

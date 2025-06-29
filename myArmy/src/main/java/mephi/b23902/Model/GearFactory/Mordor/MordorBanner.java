@@ -1,9 +1,9 @@
-package org.example.Model.GearFactory.Mordor;
+package mephi.b23902.Model.GearFactory.Mordor;
 
-import org.example.Model.GearFactory.Banner;
-import org.example.Model.GearFactory.BannerType;
+import mephi.b23902.Model.GearFactory.Banner;
+import mephi.b23902.Model.GearFactory.BannerType;
 
-import static org.example.Model.GearFactory.BannerType.RED_EYE_BANNER;
+import static mephi.b23902.Model.GearFactory.BannerType.RED_EYE_BANNER;
 
 public class MordorBanner implements Banner {
     BannerType banner;

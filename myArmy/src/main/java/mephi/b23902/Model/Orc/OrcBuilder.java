@@ -1,14 +1,14 @@
-package org.example.Model.Orc;
+package mephi.b23902.Model.Orc;
 
 import com.github.javafaker.Faker;
-import org.example.Model.GearFactory.Armor;
-import org.example.Model.GearFactory.Banner;
-import org.example.Model.GearFactory.OrcGearFactory;
-import org.example.Model.GearFactory.Weapon;
+import mephi.b23902.Model.GearFactory.Armor;
+import mephi.b23902.Model.GearFactory.Banner;
+import mephi.b23902.Model.GearFactory.OrcGearFactory;
+import mephi.b23902.Model.GearFactory.Weapon;
 
-import static org.example.Model.GearFactory.WeaponType.BOW;
-import static org.example.Model.Orc.OrcType.LEADER;
-import static org.example.Model.Orc.OrcType.SCOUTE;
+import static mephi.b23902.Model.GearFactory.WeaponType.BOW;
+import static mephi.b23902.Model.Orc.OrcType.LEADER;
+import static mephi.b23902.Model.Orc.OrcType.SCOUTE;
 
 /** "Abstract builder" */
 public abstract class OrcBuilder {

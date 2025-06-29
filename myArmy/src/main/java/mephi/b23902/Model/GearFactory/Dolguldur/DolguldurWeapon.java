@@ -1,9 +1,9 @@
-package org.example.Model.GearFactory.Dolguldur;
+package mephi.b23902.Model.GearFactory.Dolguldur;
 
-import org.example.Model.GearFactory.Weapon;
-import org.example.Model.GearFactory.WeaponType;
+import mephi.b23902.Model.GearFactory.Weapon;
+import mephi.b23902.Model.GearFactory.WeaponType;
 
-import static org.example.Model.GearFactory.WeaponType.SPEAR;
+import static mephi.b23902.Model.GearFactory.WeaponType.SPEAR;
 
 public class DolguldurWeapon implements Weapon {
     WeaponType weapon;

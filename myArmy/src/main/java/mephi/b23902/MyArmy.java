@@ -1,6 +1,6 @@
-package org.example;
+package mephi.b23902;
 
-import org.example.View.MainWindow;
+import mephi.b23902.View.MainWindow;
 
 public class MyArmy {
     public static void main(String[] args) {

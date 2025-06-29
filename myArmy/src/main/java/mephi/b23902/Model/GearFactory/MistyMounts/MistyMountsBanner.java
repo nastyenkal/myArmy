@@ -1,9 +1,9 @@
-package org.example.Model.GearFactory.MistyMounts;
+package mephi.b23902.Model.GearFactory.MistyMounts;
 
-import org.example.Model.GearFactory.Banner;
-import org.example.Model.GearFactory.BannerType;
+import mephi.b23902.Model.GearFactory.Banner;
+import mephi.b23902.Model.GearFactory.BannerType;
 
-import static org.example.Model.GearFactory.BannerType.MOON_BANNER;
+import static mephi.b23902.Model.GearFactory.BannerType.MOON_BANNER;
 
 public class MistyMountsBanner implements Banner {
     BannerType banner;

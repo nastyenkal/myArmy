@@ -1,8 +1,8 @@
-package org.example.Model.Orc;
+package mephi.b23902.Model.Orc;
 
-import org.example.Model.GearFactory.Armor;
-import org.example.Model.GearFactory.Banner;
-import org.example.Model.GearFactory.Weapon;
+import mephi.b23902.Model.GearFactory.Armor;
+import mephi.b23902.Model.GearFactory.Banner;
+import mephi.b23902.Model.GearFactory.Weapon;
 
 public class Orc {
     private OrcRace race;

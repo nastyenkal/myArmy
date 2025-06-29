@@ -1,10 +1,10 @@
-package org.example.Model.OrcFactory;
+package mephi.b23902.Model.OrcFactory;
 
-import org.example.Model.Orc.Orc;
-import org.example.Model.Orc.OrcBuilder;
-import org.example.Model.Orc.OrcRace;
+import mephi.b23902.Model.Orc.Orc;
+import mephi.b23902.Model.Orc.OrcBuilder;
+import mephi.b23902.Model.Orc.OrcRace;
 
-import static org.example.Model.Orc.OrcType.*;
+import static mephi.b23902.Model.Orc.OrcType.*;
 
 public class OrcDirector {
     private OrcBuilder builder;

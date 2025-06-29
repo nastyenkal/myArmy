@@ -1,10 +1,10 @@
-package org.example.Model.Orc;
+package mephi.b23902.Model.Orc;
 
-import org.example.Model.GearFactory.Dolguldur.DolguldurGearFactory;
-import org.example.Model.GearFactory.OrcGearFactory;
-import org.example.Model.OrcModel;
+import mephi.b23902.Model.GearFactory.Dolguldur.DolguldurGearFactory;
+import mephi.b23902.Model.GearFactory.OrcGearFactory;
+import mephi.b23902.Model.OrcModel;
 
-import static org.example.Model.Orc.OrcType.*;
+import static mephi.b23902.Model.Orc.OrcType.*;
 
 public class TestOrk {
     public static void main(String[] args) {

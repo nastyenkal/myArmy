@@ -1,7 +1,7 @@
-package org.example.Model.OrcFactory;
+package mephi.b23902.Model.OrcFactory;
 
-import org.example.Model.Orc.Orc;
-import org.example.Model.Orc.OrcRace;
+import mephi.b23902.Model.Orc.Orc;
+import mephi.b23902.Model.Orc.OrcRace;
 
 public class TestOrcBuilderFactory {
     public static void main(String[] args) {

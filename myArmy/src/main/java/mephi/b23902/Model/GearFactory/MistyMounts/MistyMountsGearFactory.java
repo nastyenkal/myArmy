@@ -1,9 +1,9 @@
-package org.example.Model.GearFactory.MistyMounts;
+package mephi.b23902.Model.GearFactory.MistyMounts;
 
-import org.example.Model.GearFactory.Armor;
-import org.example.Model.GearFactory.Banner;
-import org.example.Model.GearFactory.OrcGearFactory;
-import org.example.Model.GearFactory.Weapon;
+import mephi.b23902.Model.GearFactory.Armor;
+import mephi.b23902.Model.GearFactory.Banner;
+import mephi.b23902.Model.GearFactory.OrcGearFactory;
+import mephi.b23902.Model.GearFactory.Weapon;
 
 public class MistyMountsGearFactory implements OrcGearFactory {
 

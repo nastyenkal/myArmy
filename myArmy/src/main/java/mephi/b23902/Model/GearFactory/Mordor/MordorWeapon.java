@@ -1,9 +1,9 @@
-package org.example.Model.GearFactory.Mordor;
+package mephi.b23902.Model.GearFactory.Mordor;
 
-import org.example.Model.GearFactory.Weapon;
-import org.example.Model.GearFactory.WeaponType;
+import mephi.b23902.Model.GearFactory.Weapon;
+import mephi.b23902.Model.GearFactory.WeaponType;
 
-import static org.example.Model.GearFactory.WeaponType.*;
+import static mephi.b23902.Model.GearFactory.WeaponType.*;
 
 public class MordorWeapon implements Weapon {
     WeaponType weapon;

@@ -1,6 +1,6 @@
-package org.example.Model.Orc;
+package mephi.b23902.Model.Orc;
 
-import static org.example.Model.Orc.OrcRace.*;
+import static mephi.b23902.Model.Orc.OrcRace.*;
 
 public class DolguldurOrcBuilder extends OrcBuilder {
     public DolguldurOrcBuilder() {

@@ -1,42 +1,42 @@
-D:\Документы Настя\МИФИ\Java\maArmy\src\main\java\org\example\Controller\OrcController.java
-D:\Документы Настя\МИФИ\Java\maArmy\src\main\java\org\example\Model\GearFactory\Armor.java
-D:\Документы Настя\МИФИ\Java\maArmy\src\main\java\org\example\Model\GearFactory\ArmorType.java
-D:\Документы Настя\МИФИ\Java\maArmy\src\main\java\org\example\Model\GearFactory\Banner.java
-D:\Документы Настя\МИФИ\Java\maArmy\src\main\java\org\example\Model\GearFactory\BannerType.java
-D:\Документы Настя\МИФИ\Java\maArmy\src\main\java\org\example\Model\GearFactory\Dolguldur\DolguldurArmor.java
-D:\Документы Настя\МИФИ\Java\maArmy\src\main\java\org\example\Model\GearFactory\Dolguldur\DolguldurBanner.java
-D:\Документы Настя\МИФИ\Java\maArmy\src\main\java\org\example\Model\GearFactory\Dolguldur\DolguldurGearFactory.java
-D:\Документы Настя\МИФИ\Java\maArmy\src\main\java\org\example\Model\GearFactory\Dolguldur\DolguldurWeapon.java
-D:\Документы Настя\МИФИ\Java\maArmy\src\main\java\org\example\Model\GearFactory\MistyMounts\MistyMountsArmor.java
-D:\Документы Настя\МИФИ\Java\maArmy\src\main\java\org\example\Model\GearFactory\MistyMounts\MistyMountsBanner.java
-D:\Документы Настя\МИФИ\Java\maArmy\src\main\java\org\example\Model\GearFactory\MistyMounts\MistyMountsGearFactory.java
-D:\Документы Настя\МИФИ\Java\maArmy\src\main\java\org\example\Model\GearFactory\MistyMounts\MistyMountsWeapon.java
-D:\Документы Настя\МИФИ\Java\maArmy\src\main\java\org\example\Model\GearFactory\Mordor\MordorArmor.java
-D:\Документы Настя\МИФИ\Java\maArmy\src\main\java\org\example\Model\GearFactory\Mordor\MordorBanner.java
-D:\Документы Настя\МИФИ\Java\maArmy\src\main\java\org\example\Model\GearFactory\Mordor\MordorGearFactory.java
-D:\Документы Настя\МИФИ\Java\maArmy\src\main\java\org\example\Model\GearFactory\Mordor\MordorWeapon.java
-D:\Документы Настя\МИФИ\Java\maArmy\src\main\java\org\example\Model\GearFactory\OrcGearFactory.java
-D:\Документы Настя\МИФИ\Java\maArmy\src\main\java\org\example\Model\GearFactory\TestOrkGearFactory.java
-D:\Документы Настя\МИФИ\Java\maArmy\src\main\java\org\example\Model\GearFactory\Weapon.java
-D:\Документы Настя\МИФИ\Java\maArmy\src\main\java\org\example\Model\GearFactory\WeaponType.java
-D:\Документы Настя\МИФИ\Java\maArmy\src\main\java\org\example\Model\Orc\DolguldurOrcBuilder.java
-D:\Документы Настя\МИФИ\Java\maArmy\src\main\java\org\example\Model\Orc\MistyMountsOrcBuilder.java
-D:\Документы Настя\МИФИ\Java\maArmy\src\main\java\org\example\Model\Orc\MordorOrcBuilder.java
-D:\Документы Настя\МИФИ\Java\maArmy\src\main\java\org\example\Model\Orc\Orc.java
-D:\Документы Настя\МИФИ\Java\maArmy\src\main\java\org\example\Model\Orc\OrcBuilder.java
-D:\Документы Настя\МИФИ\Java\maArmy\src\main\java\org\example\Model\Orc\OrcRace.java
-D:\Документы Настя\МИФИ\Java\maArmy\src\main\java\org\example\Model\Orc\OrcType.java
-D:\Документы Настя\МИФИ\Java\maArmy\src\main\java\org\example\Model\Orc\TestOrk.java
-D:\Документы Настя\МИФИ\Java\maArmy\src\main\java\org\example\Model\OrcFactory\DolguldurOrcBuilderFactory.java
-D:\Документы Настя\МИФИ\Java\maArmy\src\main\java\org\example\Model\OrcFactory\MistyMountsOrcBuilderFactory.java
-D:\Документы Настя\МИФИ\Java\maArmy\src\main\java\org\example\Model\OrcFactory\MordorOrcBuilderFactory.java
-D:\Документы Настя\МИФИ\Java\maArmy\src\main\java\org\example\Model\OrcFactory\OrcBuilderFactory.java
-D:\Документы Настя\МИФИ\Java\maArmy\src\main\java\org\example\Model\OrcFactory\OrcDirector.java
-D:\Документы Настя\МИФИ\Java\maArmy\src\main\java\org\example\Model\OrcFactory\TestOrcBuilderFactory.java
-D:\Документы Настя\МИФИ\Java\maArmy\src\main\java\org\example\Model\OrcModel.java
-D:\Документы Настя\МИФИ\Java\maArmy\src\main\java\org\example\MyArmy.java
-D:\Документы Настя\МИФИ\Java\maArmy\src\main\java\org\example\View\MainWindow.java
-D:\Документы Настя\МИФИ\Java\maArmy\src\main\java\org\example\View\PanelAddView.java
-D:\Документы Настя\МИФИ\Java\maArmy\src\main\java\org\example\View\PanelInfoView.java
-D:\Документы Настя\МИФИ\Java\maArmy\src\main\java\org\example\View\PanelTreeView.java
-D:\Документы Настя\МИФИ\Java\maArmy\src\main\java\org\example\View\TestTreeView.java
+C:\Users\skice\OneDrive\Документы\GitHub\myArmy\myArmy\src\main\java\mephi\b23902\Controller\OrcController.java
+C:\Users\skice\OneDrive\Документы\GitHub\myArmy\myArmy\src\main\java\mephi\b23902\Model\GearFactory\Armor.java
+C:\Users\skice\OneDrive\Документы\GitHub\myArmy\myArmy\src\main\java\mephi\b23902\Model\GearFactory\ArmorType.java
+C:\Users\skice\OneDrive\Документы\GitHub\myArmy\myArmy\src\main\java\mephi\b23902\Model\GearFactory\Banner.java
+C:\Users\skice\OneDrive\Документы\GitHub\myArmy\myArmy\src\main\java\mephi\b23902\Model\GearFactory\BannerType.java
+C:\Users\skice\OneDrive\Документы\GitHub\myArmy\myArmy\src\main\java\mephi\b23902\Model\GearFactory\Dolguldur\DolguldurArmor.java
+C:\Users\skice\OneDrive\Документы\GitHub\myArmy\myArmy\src\main\java\mephi\b23902\Model\GearFactory\Dolguldur\DolguldurBanner.java
+C:\Users\skice\OneDrive\Документы\GitHub\myArmy\myArmy\src\main\java\mephi\b23902\Model\GearFactory\Dolguldur\DolguldurGearFactory.java
+C:\Users\skice\OneDrive\Документы\GitHub\myArmy\myArmy\src\main\java\mephi\b23902\Model\GearFactory\Dolguldur\DolguldurWeapon.java
+C:\Users\skice\OneDrive\Документы\GitHub\myArmy\myArmy\src\main\java\mephi\b23902\Model\GearFactory\MistyMounts\MistyMountsArmor.java
+C:\Users\skice\OneDrive\Документы\GitHub\myArmy\myArmy\src\main\java\mephi\b23902\Model\GearFactory\MistyMounts\MistyMountsBanner.java
+C:\Users\skice\OneDrive\Документы\GitHub\myArmy\myArmy\src\main\java\mephi\b23902\Model\GearFactory\MistyMounts\MistyMountsGearFactory.java
+C:\Users\skice\OneDrive\Документы\GitHub\myArmy\myArmy\src\main\java\mephi\b23902\Model\GearFactory\MistyMounts\MistyMountsWeapon.java
+C:\Users\skice\OneDrive\Документы\GitHub\myArmy\myArmy\src\main\java\mephi\b23902\Model\GearFactory\Mordor\MordorArmor.java
+C:\Users\skice\OneDrive\Документы\GitHub\myArmy\myArmy\src\main\java\mephi\b23902\Model\GearFactory\Mordor\MordorBanner.java
+C:\Users\skice\OneDrive\Документы\GitHub\myArmy\myArmy\src\main\java\mephi\b23902\Model\GearFactory\Mordor\MordorGearFactory.java
+C:\Users\skice\OneDrive\Документы\GitHub\myArmy\myArmy\src\main\java\mephi\b23902\Model\GearFactory\Mordor\MordorWeapon.java
+C:\Users\skice\OneDrive\Документы\GitHub\myArmy\myArmy\src\main\java\mephi\b23902\Model\GearFactory\OrcGearFactory.java
+C:\Users\skice\OneDrive\Документы\GitHub\myArmy\myArmy\src\main\java\mephi\b23902\Model\GearFactory\TestOrkGearFactory.java
+C:\Users\skice\OneDrive\Документы\GitHub\myArmy\myArmy\src\main\java\mephi\b23902\Model\GearFactory\Weapon.java
+C:\Users\skice\OneDrive\Документы\GitHub\myArmy\myArmy\src\main\java\mephi\b23902\Model\GearFactory\WeaponType.java
+C:\Users\skice\OneDrive\Документы\GitHub\myArmy\myArmy\src\main\java\mephi\b23902\Model\Orc\DolguldurOrcBuilder.java
+C:\Users\skice\OneDrive\Документы\GitHub\myArmy\myArmy\src\main\java\mephi\b23902\Model\Orc\MistyMountsOrcBuilder.java
+C:\Users\skice\OneDrive\Документы\GitHub\myArmy\myArmy\src\main\java\mephi\b23902\Model\Orc\MordorOrcBuilder.java
+C:\Users\skice\OneDrive\Документы\GitHub\myArmy\myArmy\src\main\java\mephi\b23902\Model\Orc\Orc.java
+C:\Users\skice\OneDrive\Документы\GitHub\myArmy\myArmy\src\main\java\mephi\b23902\Model\Orc\OrcBuilder.java
+C:\Users\skice\OneDrive\Документы\GitHub\myArmy\myArmy\src\main\java\mephi\b23902\Model\Orc\OrcRace.java
+C:\Users\skice\OneDrive\Документы\GitHub\myArmy\myArmy\src\main\java\mephi\b23902\Model\Orc\OrcType.java
+C:\Users\skice\OneDrive\Документы\GitHub\myArmy\myArmy\src\main\java\mephi\b23902\Model\Orc\TestOrk.java
+C:\Users\skice\OneDrive\Документы\GitHub\myArmy\myArmy\src\main\java\mephi\b23902\Model\OrcFactory\DolguldurOrcBuilderFactory.java
+C:\Users\skice\OneDrive\Документы\GitHub\myArmy\myArmy\src\main\java\mephi\b23902\Model\OrcFactory\MistyMountsOrcBuilderFactory.java
+C:\Users\skice\OneDrive\Документы\GitHub\myArmy\myArmy\src\main\java\mephi\b23902\Model\OrcFactory\MordorOrcBuilderFactory.java
+C:\Users\skice\OneDrive\Документы\GitHub\myArmy\myArmy\src\main\java\mephi\b23902\Model\OrcFactory\OrcBuilderFactory.java
+C:\Users\skice\OneDrive\Документы\GitHub\myArmy\myArmy\src\main\java\mephi\b23902\Model\OrcFactory\OrcDirector.java
+C:\Users\skice\OneDrive\Документы\GitHub\myArmy\myArmy\src\main\java\mephi\b23902\Model\OrcFactory\TestOrcBuilderFactory.java
+C:\Users\skice\OneDrive\Документы\GitHub\myArmy\myArmy\src\main\java\mephi\b23902\Model\OrcModel.java
+C:\Users\skice\OneDrive\Документы\GitHub\myArmy\myArmy\src\main\java\mephi\b23902\MyArmy.java
+C:\Users\skice\OneDrive\Документы\GitHub\myArmy\myArmy\src\main\java\mephi\b23902\View\MainWindow.java
+C:\Users\skice\OneDrive\Документы\GitHub\myArmy\myArmy\src\main\java\mephi\b23902\View\PanelAddView.java
+C:\Users\skice\OneDrive\Документы\GitHub\myArmy\myArmy\src\main\java\mephi\b23902\View\PanelInfoView.java
+C:\Users\skice\OneDrive\Документы\GitHub\myArmy\myArmy\src\main\java\mephi\b23902\View\PanelTreeView.java
+C:\Users\skice\OneDrive\Документы\GitHub\myArmy\myArmy\src\main\java\mephi\b23902\View\TestTreeView.java

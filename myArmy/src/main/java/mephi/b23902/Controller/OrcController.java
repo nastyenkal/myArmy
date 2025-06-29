@@ -1,13 +1,13 @@
-package org.example.Controller;
+package mephi.b23902.Controller;
 
-import org.example.View.PanelAddView;
-import org.example.View.PanelInfoView;
-import org.example.View.PanelTreeView;
-import org.example.Model.OrcModel;
-import org.example.Model.Orc.Orc;
-import org.example.Model.Orc.OrcRace;
-import org.example.Model.Orc.OrcType;
-import org.example.Model.OrcFactory.OrcDirector;
+import mephi.b23902.View.PanelAddView;
+import mephi.b23902.View.PanelInfoView;
+import mephi.b23902.View.PanelTreeView;
+import mephi.b23902.Model.OrcModel;
+import mephi.b23902.Model.Orc.Orc;
+import mephi.b23902.Model.Orc.OrcRace;
+import mephi.b23902.Model.Orc.OrcType;
+import mephi.b23902.Model.OrcFactory.OrcDirector;
 
 
 import javax.swing.event.TreeSelectionEvent;

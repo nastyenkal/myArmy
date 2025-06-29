@@ -1,4 +1,4 @@
-package org.example.Model.GearFactory;
+package mephi.b23902.Model.GearFactory;
 
 public enum BannerType {
     RED_EYE_BANNER("Знамя с Красным Оком"),

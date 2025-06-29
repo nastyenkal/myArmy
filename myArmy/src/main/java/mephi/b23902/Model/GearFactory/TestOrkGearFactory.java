@@ -1,6 +1,6 @@
-package org.example.Model.GearFactory;
+package mephi.b23902.Model.GearFactory;
 
-import org.example.Model.GearFactory.Mordor.MordorGearFactory;
+import mephi.b23902.Model.GearFactory.Mordor.MordorGearFactory;
 
 public class TestOrkGearFactory {
     public static void main(String[] args) {

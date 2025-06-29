@@ -1,9 +1,9 @@
-package org.example.Model.GearFactory.Dolguldur;
+package mephi.b23902.Model.GearFactory.Dolguldur;
 
-import org.example.Model.GearFactory.Banner;
-import org.example.Model.GearFactory.BannerType;
+import mephi.b23902.Model.GearFactory.Banner;
+import mephi.b23902.Model.GearFactory.BannerType;
 
-import static org.example.Model.GearFactory.BannerType.*;
+import static mephi.b23902.Model.GearFactory.BannerType.*;
 
 public class DolguldurBanner implements Banner {
     BannerType banner;

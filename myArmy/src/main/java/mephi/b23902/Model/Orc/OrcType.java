@@ -1,4 +1,4 @@
-package org.example.Model.Orc;
+package mephi.b23902.Model.Orc;
 
 public enum OrcType {
     BASIC("Обычный"),

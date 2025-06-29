@@ -1,9 +1,9 @@
-package org.example.Model.GearFactory.MistyMounts;
+package mephi.b23902.Model.GearFactory.MistyMounts;
 
-import org.example.Model.GearFactory.Armor;
-import org.example.Model.GearFactory.ArmorType;
+import mephi.b23902.Model.GearFactory.Armor;
+import mephi.b23902.Model.GearFactory.ArmorType;
 
-import static org.example.Model.GearFactory.ArmorType.*;
+import static mephi.b23902.Model.GearFactory.ArmorType.*;
 
 public class MistyMountsArmor implements Armor {
     ArmorType armor;

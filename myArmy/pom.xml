@@ -2,7 +2,7 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>org.example</groupId>
+  <groupId>mephi.b23902</groupId>
   <artifactId>myArmy</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
@@ -15,7 +15,7 @@
     <maven.compiler.release>22</maven.compiler.release>
     <maven.compiler.source>22</maven.compiler.source>
     <maven.compiler.target>22</maven.compiler.target>
-    <exec.mainClass>org.example.MyArmy</exec.mainClass>
+    <exec.mainClass>mephi.b23902.MyArmy</exec.mainClass>
   </properties>
 
   <dependencies>
@@ -46,7 +46,7 @@
             <configuration>
               <transformers>
                 <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                  <mainClass>org.example.MyArmy</mainClass>
+                  <mainClass>mephi.b23902.MyArmy</mainClass>
                 </transformer>
               </transformers>
             </configuration>

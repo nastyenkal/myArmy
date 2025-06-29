@@ -1,8 +1,8 @@
-package org.example.Model.OrcFactory;
+package mephi.b23902.Model.OrcFactory;
 
-import org.example.Model.GearFactory.Dolguldur.DolguldurGearFactory;
-import org.example.Model.Orc.DolguldurOrcBuilder;
-import org.example.Model.Orc.OrcBuilder;
+import mephi.b23902.Model.GearFactory.Dolguldur.DolguldurGearFactory;
+import mephi.b23902.Model.Orc.DolguldurOrcBuilder;
+import mephi.b23902.Model.Orc.OrcBuilder;
 
 public class DolguldurOrcBuilderFactory implements OrcBuilderFactory {
 

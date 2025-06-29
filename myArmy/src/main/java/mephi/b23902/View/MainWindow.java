@@ -1,7 +1,7 @@
-package org.example.View;
+package mephi.b23902.View;
 
-import org.example.Controller.OrcController;
-import org.example.Model.OrcModel;
+import mephi.b23902.Controller.OrcController;
+import mephi.b23902.Model.OrcModel;
 
 import javax.swing.*;
 import java.awt.*;
