@@ -11,6 +11,7 @@ public class PanelInfoView extends JPanel {
     private JLabel typeLabel;
     private JLabel raceLabel;
     private JLabel weaponLabel;
+    private JLabel armorLabel;
     private JLabel bannerNameLabel; 
     private JCheckBox armorCheckBox;
     private JCheckBox bannerCheckBox;
@@ -29,6 +30,7 @@ public class PanelInfoView extends JPanel {
         typeLabel = new JLabel("Тип: ");
         raceLabel = new JLabel("Племя: ");
         weaponLabel = new JLabel("Оружие: ");
+        armorLabel = new JLabel("Броня: ");
 
         bannerNameLabel = new JLabel("Знамя: -");
         
@@ -45,6 +47,8 @@ public class PanelInfoView extends JPanel {
         add(raceLabel);
         add(Box.createVerticalStrut(5));
         add(weaponLabel);
+        add(Box.createVerticalStrut(5));
+        add(armorLabel);
         add(Box.createVerticalStrut(10));
         add(bannerNameLabel); 
         add(Box.createVerticalStrut(5));
@@ -80,6 +84,7 @@ public class PanelInfoView extends JPanel {
         typeLabel.setText("Тип: " + orc.getType());
         raceLabel.setText("Племя: " + orc.getRace());
         weaponLabel.setText("Оружие: " + orc.getWeapon());
+        armorLabel.setText("Броня: " + orc.getArmor());
 
         if (orc.hasBanner()) {
             bannerNameLabel.setText("Знамя: " + orc.getBanner().toString());
