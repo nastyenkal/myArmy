@@ -38,7 +38,7 @@ public class Orc {
         this.hasBanner = hasBanner;
     }
 
-    public OrcRace getRace() { return race; }
+    public OrcRace getRace() { return race; } 
     public OrcType getType() { return type; }
     public String getName() { return name; }
     public Weapon getWeapon() { return weapon; }

@@ -82,7 +82,7 @@ public class PanelInfoView extends JPanel {
 
         nameLabel.setText("Имя: " + orc.getName());
         typeLabel.setText("Тип: " + orc.getType());
-        raceLabel.setText("Племя: " + orc.getRace());
+        raceLabel.setText("Племя: " + orc.getRace().getRaceName());
         weaponLabel.setText("Оружие: " + orc.getWeapon());
         armorLabel.setText("Броня: " + orc.getArmor());
 
