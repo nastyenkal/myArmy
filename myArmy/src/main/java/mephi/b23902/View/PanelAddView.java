@@ -7,9 +7,6 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionListener;
 
-/**
- * Представление для добавления персонажа - View в паттерне MVC
- */
 public class PanelAddView extends JPanel {
     private JTextField nameField;
     private JComboBox<String> raceComboBox;
@@ -21,14 +18,11 @@ public class PanelAddView extends JPanel {
         setLayout(new BorderLayout(5, 5));
         setBorder(BorderFactory.createEmptyBorder(5, 5, 5, 5));
 
-        // Панель для ввода данных
         JPanel inputPanel = new JPanel(new GridLayout(3, 2, 5, 5));
 
-        // Name
         JLabel nameLabel = new JLabel("Orc name:");
         nameField = new JTextField(20);
 
-        // Type
         String[] type =  new String[OrcType.values().length];
         for (OrcType ot : OrcType.values()) {
             type[ot.ordinal()] = ot.name();
@@ -37,7 +31,6 @@ public class PanelAddView extends JPanel {
         typeComboBox = new JComboBox<>( type );
         typeComboBox.setEditable(false);
 
-        // Race
         String[] race =  new String[OrcRace.values().length];
         for (OrcRace or : OrcRace.values()) {
             race[or.ordinal()] = or.name();
@@ -52,15 +45,11 @@ public class PanelAddView extends JPanel {
         inputPanel.add(raceLabel);
         inputPanel.add(raceComboBox);
 
-        // Панель для кнопок
         JPanel buttonPanel = new JPanel(new FlowLayout(FlowLayout.CENTER));
         addButton = new JButton("New Orc");
-        //randomButton = new JButton("Random Orc");
 
         buttonPanel.add(addButton);
-        //buttonPanel.add(randomButton);
-
-        // Добавляем панели в основную панель
+        
         add(inputPanel, BorderLayout.CENTER);
         add(buttonPanel, BorderLayout.SOUTH);
     }

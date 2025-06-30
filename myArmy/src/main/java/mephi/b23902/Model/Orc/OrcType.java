@@ -1,9 +1,9 @@
 package mephi.b23902.Model.Orc;
 
 public enum OrcType {
-    BASIC("Обычный"),
-    LEADER("Командир"),
-    SCOUTE("Разведчик");
+    BASIC("Basic"),
+    LEADER("Leader"),
+    SCOUTE("Scoute");
 
     private String typeName;
 

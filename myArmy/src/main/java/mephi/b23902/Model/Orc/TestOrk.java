@@ -30,8 +30,6 @@ public class TestOrk {
                     .buildPower()
                     .buildAgility()
                     .buildIntelligence()
-                    .addBanner()
-                    .addHorn()
                     .createNewOrc();
 
             orc2 = builder.buildType(SCOUTE)
@@ -44,8 +42,6 @@ public class TestOrk {
                     .buildPower()
                     .buildAgility()
                     .buildIntelligence()
-                    .addBanner()
-                    .addHorn()
                     .createNewOrc();
 
             orc3 = builder.buildType(LEADER)
@@ -58,35 +54,18 @@ public class TestOrk {
                     .buildPower()
                     .buildAgility()
                     .buildIntelligence()
-                    .addBanner()
-                    .addHorn()
                     .createNewOrc();
-
-            //System.out.println(orc1);
-            //System.out.println(orc2);
-            //System.out.println(orc3);
 
             exmplArmy.addOrc(orc1);
             exmplArmy.addOrc(orc2);
             exmplArmy.addOrc(orc3);
-
-
         }
 
-        System.out.println("Race : " + exmplArmy.getOrcRace().toString());
-        System.out.println("Type : " + exmplArmy.getOrcType());
+        System.out.println("Race : " + exmplArmy.getOrcArmyByRace(OrcRace.DOLGULDUR_ORC).get(0).getRace());
         System.out.println("All Army : " + exmplArmy.getOrcArmy());
-
         System.out.println("Army by Race : " + exmplArmy.getOrcArmyByRace(OrcRace.DOLGULDUR_ORC));
         System.out.println("Army by Type : " + exmplArmy.getOrcArmyByType(BASIC));
         System.out.println("Army by Type : " + exmplArmy.getOrcArmyByType(LEADER));
         System.out.println("Army by Type : " + exmplArmy.getOrcArmyByType(SCOUTE));
-
-
-
-
-
-
-
     }
 }

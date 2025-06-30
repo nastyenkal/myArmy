@@ -9,11 +9,10 @@ import static mephi.b23902.Model.Orc.OrcType.*;
 public class OrcDirector {
     private OrcBuilder builder;
 
-
     public OrcDirector(OrcRace race) {
         setOrcBuilder(race);
     }
-    // Фабричный метод
+
     public void setOrcBuilder(OrcRace race) {
         switch (race) {
             case MORDOR_ORC:
@@ -26,54 +25,44 @@ public class OrcDirector {
                 builder = new MistyMountsOrcBuilderFactory().createOrcBuilder();
                 break;
             default:
-                // to-do добавить эксепшен
-                builder = null;
+                throw new IllegalArgumentException("Unknown orc race: " + race);
         }
     }
 
-
     public Orc createBasicOrc(String orcName) {
-        builder.buildType(BASIC)
-                .buildName(orcName)
-                .buildWeapon()
-                .buildArmor()
-                .buildBanner()
-                .buildHealth()
-                .buildPower()
-                .buildAgility()
-                .buildIntelligence()
-                .addBanner()
-                .addHorn();
-        return builder.createNewOrc();
-    }
-
-    public Orc createLeaderOrc(String orcName) {
-        builder.buildType(LEADER)
-                .buildName(orcName)
-                .buildWeapon()
-                .buildArmor()
-                .buildBanner()
-                .buildHealth()
-                .buildPower()
-                .buildAgility()
-                .buildIntelligence()
-                .addBanner()
-                .addHorn();
-        return builder.createNewOrc();
+        return builder.buildType(BASIC)
+            .buildName(orcName)
+            .buildWeapon()
+            .buildArmor()
+            .buildHealth()
+            .buildPower()
+            .buildAgility()
+            .buildIntelligence()
+            .createNewOrc();
     }
 
     public Orc createScoutOrc(String orcName) {
-        builder.buildType(SCOUTE)
-                .buildName(orcName)
-                .buildWeapon()
-                .buildArmor()
-                .buildBanner()
-                .buildHealth()
-                .buildPower()
-                .buildAgility()
-                .buildIntelligence()
-                .addBanner()
-                .addHorn();
-        return builder.createNewOrc();
+        return builder.buildType(SCOUTE)
+            .buildName(orcName)
+            .buildWeapon()
+            .buildArmor()
+            .buildHealth()
+            .buildPower()
+            .buildAgility()
+            .buildIntelligence()
+            .createNewOrc();
+    }
+
+    public Orc createLeaderOrc(String orcName) {
+        return builder.buildType(LEADER)
+            .buildName(orcName)
+            .buildWeapon()
+            .buildArmor()
+            .buildBanner()
+            .buildHealth()
+            .buildPower()
+            .buildAgility()
+            .buildIntelligence()
+            .createNewOrc();
     }
 }
